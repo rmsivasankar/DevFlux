@@ -17,13 +17,13 @@ const Navbar = async() => {
             {session && session?.user ? (
                 <>
                     <Link href="/startup/create">
-                        <span>Create</span>        
+                        <span className='font-semibold text-sky-300'>Create</span>        
                     </Link>
                     <form action={ async() => { 
                         "use server";
                         await signOut({ redirectTo: "/" });
                     }}>
-                        <button type='submit'>
+                        <button type='submit' className='font-semibold text-red-400'>
                             Logout
                         </button>
                     </form>
