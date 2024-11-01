@@ -10,7 +10,7 @@ const Navbar = async() => {
     <header className='px-3 py-3 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b'>
       <nav className='flex justify-between items-center'>
         <Link href="/">
-            <h1 className="text-2xl font-bold">DevFlux</h1>
+            <h1 className="text-2xl font-bold"><span className='text-red-600'>Dev</span>Flux</h1>
         </Link>
 
         <div className="flex items-center gap-5">
